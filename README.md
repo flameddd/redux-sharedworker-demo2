@@ -25,7 +25,5 @@ then visit `http://localhost:3000/`
   <img width="auto" height="450" src="demo.gif">
 </p>
 
-## about code
-### Middleware: `createSharedWorkerMiddleware` and `targetActions`
-
-### Init: `dispatch({ type: 'SHARED_WORDER_INIT' })`
+## about `redux-sharedworker` code
+- https://github.com/flameddd/redux-sharedworker-demo2/commit/2402ee0e1d68785bc6e17bd8e7daab9f407ce720
