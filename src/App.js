@@ -6,6 +6,11 @@ import './App.css';
 function App() {
   const [src, setSrc] = React.useState('');
   const dispatch = useDispatch();
+
+  React.useEffect(() => {
+    dispatch({ type: 'SHARED_WORDER_INIT' })
+  },[dispatch])
+
   return (
     <div className="App">
       <div className="header">
